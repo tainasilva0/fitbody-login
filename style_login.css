@@ -1,0 +1,94 @@
+/* ======== ESTILO GERAL ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #e9f7ef;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ======== CONTAINER DO LOGIN ======== */
+form {
+  background-color: #fff;
+  width: 350px;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #1b5e20;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+p {
+  text-align: center;
+}
+
+/* ======== CAMPOS ======== */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border-color: #43a047;
+  box-shadow: 0 0 5px rgba(67, 160, 71, 0.4);
+}
+
+/* ======== BOTÃO ======== */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #43a047;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2e7d32;
+}
+
+/* ======== LINK PARA MATRÍCULA ======== */
+a {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #1b5e20;
+}
+
+footer {
+  text-align: center;
+
+}
